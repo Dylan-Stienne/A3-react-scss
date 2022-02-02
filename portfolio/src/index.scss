@@ -1,0 +1,42 @@
+@import "./sass/helpers/_normalize.scss";
+@import "./sass/helpers/_variables.scss";
+
+/* General
+   ========================================================================== */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+body {
+  font-family: $font-default;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $color-background;
+}
+
+code {
+  font-family: $font-code;
+  line-height: 1.2;
+  font-weight: medium;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+  width: px(5);
+  height: px(5);
+}
+::-webkit-scrollbar-track {
+  box-shadow: 0;
+  border-radius: 0;
+}
+::-webkit-scrollbar-thumb {
+  background: $color-primary;
+  border-radius: 0;
+}

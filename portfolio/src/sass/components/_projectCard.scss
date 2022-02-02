@@ -1,0 +1,127 @@
+@import "../helpers/_variables.scss";
+@import "../helpers/_functions.scss";
+
+.project-card {
+    width: 95%;
+    max-width: px(1200);
+    height: px(350);
+    background-color: $color-secondary;
+    margin-top: $margin-xx-large;
+    border-left: px(5) solid;
+    position: relative;
+
+    &__infos {
+        padding: $padding-medium $padding-regular;
+
+        &__head {
+            .project-name {
+                text-transform: uppercase;
+                font-weight: $font-weight-medium;
+                font-size: $font-size-xx-large;
+            }
+            .project-role {
+                color: $color-primary;
+                font-weight: $font-weight-regular;
+                font-size: $font-size-large;
+            }
+        }
+
+        &__body {
+            overflow: auto;
+            margin: $margin-small 0;
+
+            .project-description {
+                color: $color-text-grey;
+                line-height: 1.5;
+                white-space: pre-line;
+            }
+        }
+
+        &__foot {
+            &__technos {
+                flex-wrap: wrap;
+            }
+            &__actions .action {
+                margin: $margin-xxx-small;
+            }
+        }
+    }
+}
+
+//colors
+.project-card {
+    &.color-project-1 {
+        border-color: $color-project-1;
+        .project-name {
+            color: $color-project-1;
+        }
+    }
+
+    &.color-project-2 {
+        border-color: $color-project-2;
+        .project-name {
+            color: $color-project-2;
+        }
+    }
+
+    &.color-project-3 {
+        border-color: $color-project-3;
+        .project-name {
+            color: $color-project-3;
+        }
+    }
+}
+
+//------------------------------------------------------
+//--------------------- RESPONSIVE ---------------------
+//------------------------------------------------------
+
+@media screen and (max-width: px(1300)) {
+    .project-card {
+        height: px(400);
+
+        &__image {
+            width: 100% !important;
+            height: auto;
+            padding: $padding-regular 0;
+        }
+
+        &__infos {
+            width: 100% !important;
+            padding: $padding-regular;
+        }
+    }
+}
+
+@media screen and (max-width: px(1100)) {
+    .project-card {
+        max-width: px(600);
+        height: auto;
+        flex-direction: column;
+        padding-top: rem(5);
+
+        
+
+        &__infos {
+            padding-top: 0;
+
+            &__head {
+                position: absolute;
+                top: $padding-regular;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: px(600)) {
+    .project-card {
+        &__infos__foot {
+            flex-direction: column;
+
+            &__technos {
+                width: 100%;
+                justify-content: center !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;1,200;1,300;1,400;1,500;1,700;1,800&display=swap");
+@import "./functions.scss";
+
+/**
+* colors
+*/
+$color-primary: #3ca7d6;
+$color-secondary: #131829;
+
+$color-background: #000919;
+
+$color-text-grey: #eaeaea;
+
+$color-accent-1: #e04948;
+$color-accent-2: #e29441;
+$color-accent-3: #c248e0;
+
+$color-danger: #e04948;
+$color-warning: #e29441;
+$color-success: #50d100;
+
+/**
+* Color for projects cards
+*/
+$color-project-1: #c248e0;
+$color-project-2: #e29441;
+$color-project-3: #e04948;
+
+/**
+* Padding
+*/
+$padding-xxx-small: px(5);
+$padding-xx-small: px(8);
+$padding-x-small: px(10);
+$padding-small: px(15);
+$padding-regular: px(20);
+$padding-medium: px(25);
+$padding-large: px(30);
+$padding-x-large: px(40);
+$padding-xx-large: px(50);
+$padding-xxx-large: px(75);
+$padding-xxxx-large: px(100);
+$padding-xxxxx-large: px(125);
+
+/**
+* Margin
+*/
+$margin-xxx-small: px(5);
+$margin-xx-small: px(8);
+$margin-x-small: px(10);
+$margin-small: px(15);
+$margin-regular: px(20);
+$margin-medium: px(25);
+$margin-large: px(30);
+$margin-x-large: px(40);
+$margin-xx-large: px(50);
+$margin-xxx-large: px(75);
+$margin-xxxx-large: px(100);
+
+/**
+* fonts
+*/
+$font-size-xxxx-small: px(4);
+$font-size-xxx-small: px(6);
+$font-size-xx-small: px(8);
+$font-size-x-small: px(10);
+$font-size-small: px(12);
+$font-size-regular: px(14);
+$font-size-medium: px(16);
+$font-size-large: px(18);
+$font-size-x-large: px(22);
+$font-size-xx-large: px(28);
+$font-size-xxx-large: px(36);
+$font-size-xxxx-large: px(48);
+$font-size-xxxxx-large: px(58);
+
+$font-weight-extra-light: 200;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+$font-weight-extra-bold: 800;
+
+$font-family-title: "Poppins", sans-serif;
+$font-family-text: "Poppins", sans-serif;
+$font-default: "Poppins", sans-serif;
+$font-code: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+
+/**
+* borders
+*/
+$border-radius-x-small: px(3);
+$border-radius-small: px(5);
+$border-radius-regular: px(10);
+$border-radius-meduim: px(20);
+$border-radius-large: px(30);
+$border-radius-x-large: px(40);
+
+$border-radius-round: rem(9999);
+
+/**
+ * Transitions
+ */
+$transition-speed-low: 0.7s;
+$transition-speed-regular: 0.5s;
+$transition-speed-fast: 0.3s;
+
+/**
+* others
+*/
+$max-width: px(1550);

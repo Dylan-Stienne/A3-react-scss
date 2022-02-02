@@ -1,0 +1,12 @@
+@import "../helpers/_variables.scss";
+@import "../helpers/_functions.scss";
+
+.techno-tag {
+    border: px(2) solid $color-primary;
+    border-radius: $border-radius-round;
+    color: $color-primary;
+    padding: $margin-xxx-small $margin-xx-small;
+    margin: $margin-xxx-small;
+    font-size: $font-size-regular;
+    font-weight: $font-weight-medium;
+}

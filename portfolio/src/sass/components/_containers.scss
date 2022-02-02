@@ -1,0 +1,130 @@
+@import "../helpers/_variables.scss";
+
+// No flex
+.container,
+.container__row,
+.container__col {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+
+    // _width
+    @for $i from 1 through 10 {
+        &[_width="#{$i * 10}"] {
+            width: #{$i * 10%};
+        }
+    }
+    &[_width="max"] {
+        width: 100%;
+        max-width: $max-width;
+    }
+
+    // _height
+    @for $i from 1 through 10 {
+        &[_height="#{$i * 10}"] {
+            height: #{$i * 10%};
+        }
+    }
+
+    // _justify
+    &[_justify="left"] {
+        align-items: flex-start;
+    }
+
+    &[_justify="center"] {
+        align-items: center;
+    }
+
+    &[_justify="right"] {
+        align-items: flex-end;
+    }
+
+    // _align
+    &[_align="top"] {
+        justify-content: flex-start;
+    }
+
+    &[_align="center"] {
+        justify-content: center;
+    }
+
+    &[_align="bottom"] {
+        justify-content: flex-end;
+    }
+
+    &[_align="around"] {
+        justify-content: space-around;
+    }
+
+    &[_align="between"] {
+        justify-content: space-between;
+    }
+
+    &[_align="evenly"] {
+        justify-content: space-evenly;
+    }
+}
+
+// Flex
+.container-flex {
+    display: flex;
+    width: auto;
+    height: auto;
+
+    // _width
+    @for $i from 1 through 10 {
+        &[_width="#{$i * 10}"] {
+            width: #{$i * 10%};
+        }
+    }
+    &[_width="max"] {
+        width: 100%;
+        max-width: $max-width;
+    }
+
+    // _height
+    @for $i from 1 through 10 {
+        &[_height="#{$i * 10}"] {
+            height: #{$i * 10%};
+        }
+    }
+
+    // _justify
+    &[_justify="left"] {
+        justify-content: flex-start;
+    }
+
+    &[_justify="center"] {
+        justify-content: center;
+    }
+
+    &[_justify="right"] {
+        justify-content: flex-end;
+    }
+
+    &[_justify="around"] {
+        justify-content: space-around;
+    }
+
+    &[_justify="between"] {
+        justify-content: space-between;
+    }
+
+    &[_justify="evenly"] {
+        justify-content: space-evenly;
+    }
+
+    // _align
+    &[_align="top"] {
+        align-items: flex-start;
+    }
+
+    &[_align="center"] {
+        align-items: center;
+    }
+
+    &[_align="bottom"] {
+        align-items: flex-end;
+    }
+}
