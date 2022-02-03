@@ -1,13 +1,13 @@
 import cv from '../img/CV Dylan Stienne.pdf'
-import squirle_main from '../img/project-squirle/main.png'
-import portfolio_main from '../img/project-portfolio/main.png'
-import codetonexo_main from '../img/project-codetonexo/main.png'
-import devcoin_main from '../img/project-devcoin/main.png'
-import escape34_main from '../img/project-escape34/main.png'
-import sass_main from '../img/project-sass/main.png'
+import squirle_main from '../img/projects/squirle/main.png'
+import portfolio_main from '../img/projects/portfolio/main.png'
+import codetonexo_main from '../img/projects/codetonexo/main.png'
+import devcoin_main from '../img/projects/devcoin/main.png'
+import escape34_main from '../img/projects/escape34/main.png'
+import sass_main from '../img/projects/sass/main.png'
 
 
-const Database = {
+export default {
     getMyInfos() {
         return {
             "name": "Dylan Stienne",
@@ -28,17 +28,17 @@ const Database = {
                 "Python",
                 "Nuxt",
                 "VueJs",
-                "React.js",
+                "Terraform",
                 "Git"
             ],
             "medium": [
-                "MySQL",
                 "MongoDB",
-                "Angular",
-                "Terraform"
+                "React.js",
+                "AWS",
+                "MySQL"
             ],
             "low": [
-                "AWS",
+                "Angular",
                 "PHP",
                 "Laravel",
                 "Symfony"
@@ -64,9 +64,9 @@ const Database = {
                     "AWS Lambas",
                     "Terraform"
                 ],
-                pictures: {
-                    main: squirle_main
-                }
+                pictures: [
+                    squirle_main
+                ]
             },
             {
                 name: "escape34",
@@ -82,9 +82,9 @@ const Database = {
                     "Git",
                     "Netlify"
                 ],
-                pictures: {
-                    main: escape34_main
-                }
+                pictures: [
+                    escape34_main
+                ]
             },
             {
                 name: "codetonexo",
@@ -99,9 +99,9 @@ const Database = {
                     "Html5",
                     "MySql"
                 ],
-                pictures: {
-                    main: codetonexo_main
-                }
+                pictures: [
+                    codetonexo_main
+                ]
             },
             {
                 name: "portfolio",
@@ -117,9 +117,9 @@ const Database = {
                     "Git",
                     "Netlify"
                 ],
-                pictures: {
-                    main: portfolio_main
-                }
+                pictures: [
+                    portfolio_main
+                ]
             },
             {
                 name: "devcoin",
@@ -136,9 +136,9 @@ const Database = {
                     "Sass",
                     "Git"
                 ],
-                pictures: {
-                    main: devcoin_main
-                }
+                pictures: [
+                    devcoin_main
+                ]
             },
             {
                 name: "intégration Sass",
@@ -154,12 +154,10 @@ const Database = {
                     "Gulp",
                     "Git"
                 ],
-                pictures: {
-                    main: sass_main
-                }
+                pictures: [
+                    sass_main
+                ]
             }
         ]
     }
 }
-
-export default Database;

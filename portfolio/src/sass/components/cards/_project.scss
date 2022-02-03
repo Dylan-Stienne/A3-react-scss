@@ -1,14 +1,14 @@
-@import "../helpers/_variables.scss";
-@import "../helpers/_functions.scss";
+@import "../../helpers/_variables.scss";
+@import "../../helpers/_functions.scss";
+@import "./layout";
 
 .project-card {
+    @include card;
+    opacity: 1;
+
     width: 95%;
     max-width: px(1200);
     height: px(350);
-    background-color: $color-secondary;
-    margin-top: $margin-xx-large;
-    border-left: px(5) solid;
-    position: relative;
 
     &__infos {
         padding: $padding-medium $padding-regular;

@@ -1,0 +1,18 @@
+@import "../../helpers/_variables.scss";
+@import "../../helpers/_functions.scss";
+@import "./layout";
+
+.main-card {
+    @include card;
+    background-color: transparent;
+    border-color: $color-primary;
+    font-size: $font-size-large;
+    white-space: pre-line;
+    animation: fade-in__right forwards 1.5s 0.2s;
+    h1 {
+        color: $color-primary;
+        font-size: $font-size-xxxx-large;
+        font-weight: $font-weight-regular;
+        padding-bottom: $padding-regular;
+    }
+}

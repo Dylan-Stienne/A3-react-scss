@@ -1,0 +1,29 @@
+@import "../../helpers/_variables.scss";
+@import "../../helpers/_functions.scss";
+
+@mixin card {
+    position: relative;
+    width: 100%;
+    padding: $padding-small $padding-regular;
+    margin: $margin-regular 0;
+    background-color: $color-secondary;
+    color: $color-text-grey;
+    border-left: px(5) solid;
+    font-size: $font-size-small;
+    font-weight: $font-weight-regular;
+    line-height: 1.5;
+    overflow: hidden;
+    cursor: default;
+    opacity: 0;
+
+    h2 {
+        font-size: $font-size-x-large;
+        font-weight: $font-weight-medium;
+        text-transform: uppercase;
+        padding-bottom: px(10);
+    }
+
+    .icon-button {
+        margin-left: $margin-x-small;
+    }
+}

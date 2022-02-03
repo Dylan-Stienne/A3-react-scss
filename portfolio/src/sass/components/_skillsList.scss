@@ -1,0 +1,26 @@
+@import "../helpers/_variables.scss";
+@import "../helpers/_functions.scss";
+
+.skills-list {
+    @for $i from 1 through 18 {
+        & > code:nth-child(#{$i}) {
+            display: block;
+            overflow: hidden;
+            width: 0;
+            border-right: px(3) solid transparent;
+            animation: typing__with-caret 0.3s #{$i * 0.3}s steps(35) forwards;
+
+            span.color-primary {
+                color: $color-primary;
+            }
+        }
+    }
+
+    & > code:last-child {
+        width: rem(1.5);
+        display: block;
+        opacity: 0;
+        border-right: px(3) solid transparent;
+        animation: fade-in 0.05s #{18 * 0.3}s forwards, typing-caret 1s #{18 * 0.3}s infinite;
+    }
+}

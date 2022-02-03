@@ -1,0 +1,20 @@
+{
+    "HOME": {
+        "TITLE_MY_PORTFOLIO": "mon portfolio",
+        "LABEL_MY_PORTFOLIO": "Découvrez les meilleurs projets WEB auxquels j’ai participé",
+        "TITLE_MY_CV": "mon cv",
+        "LABEL_MY_CV": "Gardez une trace de moi en téléchargeant mon CV juste ici",
+        "TITLE_CONTACT_ME": "me contacter"
+    },
+    "SKILLS_CODE": {
+        "DEFINE_VAR": "const",
+        "SKILLS_VAR": "skills",
+        "OPEN_DICT": "= {",
+        "DICT_SEPARATOR": ":",
+        "DICT_END_LINE": ",",
+        "CLOSE_DICT": "}",
+        "SKILL_LVL_LOW": "débutant",
+        "SKILL_LVL_MEDIUM": "intermediaire",
+        "SKILL_LVL_HIGH": "avancé"
+    }
+}

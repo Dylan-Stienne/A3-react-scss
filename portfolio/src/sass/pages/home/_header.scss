@@ -1,0 +1,124 @@
+@import "../../helpers/_variables.scss";
+@import "../../helpers/_functions.scss";
+@import "../../helpers/animations.scss";
+
+#home-page .hero-header {
+    height: 100vh;
+    min-height: px(800);
+    background-image: url("../../../img/home/background.svg");
+    background-size: cover;
+    overflow: hidden;
+
+    &__content {
+        background-image: url("../../../img/home/perso.svg");
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        background-size: 25%;
+        padding: $padding-xx-large;
+        position: relative;
+
+        &__infos {
+            .row-portfolio-cv {
+                gap: $margin-small;
+            }
+        }
+
+        &__skills {
+            color: $color-text-grey;
+            font-size: $font-size-x-large;
+            padding-left: rem(10);
+        }
+    }
+}
+
+//------------------------------------------------------
+//--------------------- RESPONSIVE ---------------------
+//------------------------------------------------------
+
+@media screen and (max-width: px(1300)) {
+    #home-page .hero-header {
+        &__content {
+            &__infos {
+                width: 60%;
+            }
+            &__skills {
+                width: 40%;
+                padding: rem(4);
+                justify-content: flex-start;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: px(1200)) {
+    #home-page .hero-header {
+        height: auto;
+
+        &__content {
+            flex-direction: column;
+            justify-content: flex-start;
+            background-size: 50%;
+
+            &__infos {
+                width: 70%;
+            }
+
+            &__skills {
+                width: 60%;
+                padding: rem(5);
+            }
+        }
+    }
+}
+
+@media screen and (max-width: px(1000)) {
+    #home-page .hero-header {
+        &__content {
+            background-size: 50%;
+
+            &__infos {
+                width: 100%;
+                max-width: px(800);
+                margin: 0 auto;
+            }
+
+            &__skills {
+                width: 60%;
+                padding: rem(5);
+            }
+        }
+    }
+}
+
+@media screen and (max-width: px(700)) {
+    #home-page .hero-header {
+        &__content {
+            background-size: 50%;
+
+            &__infos {
+                .row-portfolio-cv {
+                    flex-direction: column;
+                    gap: 0;
+                }
+            }
+
+            &__skills {
+                width: 100%;
+                padding: rem(3) 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: px(500)) {
+    #home-page .hero-header {
+        &__content {
+            background-size: 80%;
+            padding: rem(1);
+
+            &__skills {
+                margin-bottom: rem(15);
+            }
+        }
+    }
+}

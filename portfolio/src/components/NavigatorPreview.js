@@ -1,4 +1,4 @@
-import '../sass/components/_projectCard.scss'
+import '../sass/components/cards/_project.scss'
 import Container, { ContainerFlex } from './Containers'
 
 function NavigatorPreview({images}) {
@@ -10,7 +10,7 @@ function NavigatorPreview({images}) {
                 <span className="navigator-preview__nav__dot dot-green"></span>
             </ContainerFlex>
             <div className="navigator-preview__content">
-                <img src={images.main} alt="" />
+                <img src={images[0]} alt="" />
             </div>
         </Container>
     )

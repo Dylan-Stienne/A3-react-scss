@@ -1,4 +1,4 @@
-import ProjectCard from './ProjectCard'
+import ProjectCard from './cards/Project'
 
 function ProjectsList({ projects }) {
     return projects.map((project, i) => {

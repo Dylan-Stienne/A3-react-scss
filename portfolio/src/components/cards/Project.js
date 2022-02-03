@@ -1,11 +1,11 @@
-import '../sass/components/_navigatorPreview.scss'
-import Container, { ContainerFlex, If } from './Containers'
-import IconButton from './IconButton'
-import NavigatorPreview from './NavigatorPreview'
-import TechnosList from './TechnosList'
-import icon_github from '../icons/github.svg'
-import icon_gitlab from '../icons/gitlab.svg'
-import icon_share from '../icons/share.svg'
+import '../../sass/components/_navigatorPreview.scss'
+import Container, { ContainerFlex, If } from '../Containers'
+import IconButton from '../IconButton'
+import NavigatorPreview from '../NavigatorPreview'
+import TechnosList from '../TechnosList'
+import icon_github from '../../icons/github.svg'
+import icon_gitlab from '../../icons/gitlab.svg'
+import icon_share from '../../icons/share.svg'
 
 function ProjectCard({ project }) {
     const _color = ['color-project-1', 'color-project-2', 'color-project-3'].includes(project?.color) ? project.color : 'color-project-1';

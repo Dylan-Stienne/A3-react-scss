@@ -1,0 +1,27 @@
+@import "../../helpers/_variables.scss";
+@import "../../helpers/_functions.scss";
+@import "./layout";
+
+.contact-card {
+    @include card;
+    border-color: $color-accent-3;
+    animation: fade-in__right forwards 1.5s 0.8s;
+    h2 {
+        color: $color-accent-3;
+        font-size: $font-size-xxx-large;
+    }
+
+    .contacts {
+        width: 100%;
+        font-size: $font-size-medium;
+
+        div:first-child {
+            margin-bottom: px(5);
+        }
+
+        img {
+            height: px(15);
+            margin-right: px(5);
+        }
+    }
+}
