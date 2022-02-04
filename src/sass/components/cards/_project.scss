@@ -5,24 +5,28 @@
 .project-card {
     @include card;
     opacity: 1;
-
+    font-size: $font-size-medium;
+    padding: $padding-xxx-small;
     width: 95%;
     max-width: px(1200);
     height: px(350);
 
     &__infos {
-        padding: $padding-medium $padding-regular;
+        padding: $padding-medium $padding-small;
 
         &__head {
             .project-name {
                 text-transform: uppercase;
                 font-weight: $font-weight-medium;
                 font-size: $font-size-xx-large;
+                line-height: 1.2;
             }
             .project-role {
                 color: $color-primary;
                 font-weight: $font-weight-regular;
                 font-size: $font-size-large;
+                margin-bottom: $margin-xx-small;
+                line-height: 1.2;
             }
         }
 
