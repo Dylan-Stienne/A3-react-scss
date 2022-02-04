@@ -2,7 +2,8 @@
     "NAV": {
         "LINK_HOME": "Qui suis-je ?",
         "LINK_PORTFOLIO": "Portfolio",
-        "LINK_CV": "Mon parcours"
+        "LINK_CV": "Mon parcours",
+        "LINK_QUIZZS": "Quizzs"
     },
     "HOME": {
         "TITLE_MY_PORTFOLIO": "mon portfolio",
@@ -27,5 +28,8 @@
         "SKILL_LVL_LOW": "débutant",
         "SKILL_LVL_MEDIUM": "intermediaire",
         "SKILL_LVL_HIGH": "avancé"
+    },
+    "QUIZZS": {
+        "TITLE": "Voici quelques quizzs"
     }
 }

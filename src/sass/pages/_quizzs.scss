@@ -1,0 +1,9 @@
+@import "../helpers/_variables.scss";
+@import "../helpers/_functions.scss";
+
+#quizzs-page {
+    h1 {
+        color: $color-text-grey;
+        margin: px(20) 0;
+    }
+}

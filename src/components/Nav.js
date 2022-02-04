@@ -14,6 +14,9 @@ function Nav() {
             <li className='cv-link'>
                 <Link to="/cv"><Translator tid="NAV.LINK_CV" /></Link>
             </li>
+            <li className='quizzs-link'>
+                <Link to="/quizzs"><Translator tid="NAV.LINK_QUIZZS" /></Link>
+            </li>
         </ul>
     </nav>
 }
