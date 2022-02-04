@@ -1,11 +1,9 @@
-import IconButton from '../components/IconButton';
 import Container, { ContainerFlex, Row } from '../components/Containers';
 import SkillsList from '../components/SkillsList'
 import MainCard from '../components/cards/Main'
 import PortfolioCard from '../components/cards/Portfolio'
 import CvCard from '../components/cards/Cv'
 import ContactCard from '../components/cards/Contact'
-import icon_arrow_down from '../icons/arrow-down-primary.svg';
 import mock from '../services/mock';
 import '../sass/pages/home/_header.scss';
 
