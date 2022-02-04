@@ -1,8 +1,8 @@
 {
     "NAV": {
-        "LINK_HOME": "Qui suis-je ?",
+        "LINK_HOME": "Home",
         "LINK_PORTFOLIO": "Portfolio",
-        "LINK_CV": "Mon parcours",
+        "LINK_CV": "Parcours",
         "LINK_QUIZZS": "Quizzs"
     },
     "HOME": {
@@ -30,6 +30,7 @@
         "SKILL_LVL_HIGH": "avancé"
     },
     "QUIZZS": {
-        "TITLE": "Voici quelques quizzs"
+        "TITLE": "Voici quelques quizzs",
+        "LABEL_QUESTIONS": "question(s)"
     }
 }

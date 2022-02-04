@@ -1,4 +1,4 @@
-import '../../sass/components/_navigatorPreview.scss'
+import '../../sass/components/cards/_project.scss';
 import Container, { ContainerFlex, If } from '../Containers'
 import IconButton from '../IconButton'
 import NavigatorPreview from '../NavigatorPreview'

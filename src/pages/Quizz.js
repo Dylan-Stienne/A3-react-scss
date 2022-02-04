@@ -17,6 +17,8 @@ function Quizz() {
         <Nav />
         <Container width="100" justify="center">
             <h1>{quizz.title}</h1>
+
+
         </Container>
     </div>
 }

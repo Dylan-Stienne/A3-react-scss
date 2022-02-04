@@ -1,0 +1,23 @@
+@import "../../helpers/_variables.scss";
+@import "../../helpers/_functions.scss";
+
+.quizz-card {
+    width: 100%;
+    max-width: px(600);
+    background-color: $color-secondary;
+    border-left: px(5) solid;
+    border-color: $color-accent-3;
+    margin: $margin-small;
+    color: $color-text-grey;
+    padding: $padding-small;
+
+    h2 {
+        color: $color-accent-3;
+    }
+    p {
+        margin: $margin-small 0;
+    }
+    span {
+        font-weight: 100;
+    }
+}

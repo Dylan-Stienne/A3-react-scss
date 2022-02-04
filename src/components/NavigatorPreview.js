@@ -1,7 +1,7 @@
-import '../sass/components/cards/_project.scss'
-import Container, { ContainerFlex } from './Containers'
+import '../sass/components/_navigatorPreview.scss';
+import Container, { ContainerFlex } from './Containers';
 
-function NavigatorPreview({images}) {
+function NavigatorPreview({ images }) {
     return (
         <Container className="navigator-preview" width="90">
             <ContainerFlex className="navigator-preview__nav" width="100">

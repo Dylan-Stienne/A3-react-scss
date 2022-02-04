@@ -2,6 +2,7 @@ const QUIZZS = [
     {
         id: "1",
         title: "XX",
+        description: "Ceci est un formulaire qui parle",
         questions: [
             {
                 title: "Question 1",
@@ -26,6 +27,7 @@ const QUIZZS = [
     {
         id: "2",
         title: "XX",
+        description: "Ceci est un formulaire qui parle",
         questions: [
             {
                 title: "Question 1",
