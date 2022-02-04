@@ -6,11 +6,11 @@ import quizzs from '../services/quizz'
 import '../sass/pages/_quizz.scss';
 
 function Quizz() {
-    const { id } = useParams()
+    const { slug } = useParams()
     const [quizz, setQuizz] = useState({})
 
     useEffect(() => {
-        setQuizz(quizzs.getQuizz(id));
+        setQuizz(quizzs.getQuizz(slug));
     }, [])
 
     return <div id='quizz-page'>

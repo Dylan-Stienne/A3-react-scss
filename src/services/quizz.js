@@ -1,6 +1,7 @@
 const QUIZZS = [
     {
         id: "1",
+        slug: "quiz-1",
         title: "XX",
         description: "Ceci est un formulaire qui parle",
         questions: [
@@ -26,6 +27,7 @@ const QUIZZS = [
     },
     {
         id: "2",
+        slug: "quiz-2",
         title: "XX",
         description: "Ceci est un formulaire qui parle",
         questions: [
@@ -55,8 +57,8 @@ const quizz = {
     getQuizzs() {
         return QUIZZS;
     },
-    getQuizz(id) {
-        return QUIZZS.find(q => q.id == id);
+    getQuizz(slug) {
+        return QUIZZS.find(q => q.slug == slug);
     }
 }
 

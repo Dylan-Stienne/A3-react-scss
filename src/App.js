@@ -19,7 +19,7 @@ function App() {
         <Route exact path="/portfolio" component={PortfolioPage} />
         <Route exact path="/cv" component={CvPage} />
         <Route exact path="/quizzs" component={QuizzsPage} />
-        <Route exact path="/quizz/:id" component={QuizzPage} />
+        <Route exact path="/quizz/:slug" component={QuizzPage} />
         <Route path="*"><Redirect to="/" /></Route>
       </Switch>
     </Router>
