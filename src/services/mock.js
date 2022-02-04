@@ -11,7 +11,7 @@ export default {
     getMyInfos() {
         return {
             "name": "Dylan Stienne",
-            "description": "Développeur Web passionné par le code depuis plusieurs années, je m’intéresse au Front-end comme au Back-end en touchant à tout type de technologies.",
+            "description": "Développeur Web passionné par le code depuis plusieurs années, je m’intéresse au Front-end comme au Back-end en touchant à tous types de technologies.",
             "phone": "06 50 78 48 62",
             "email": "dylanstienne@gmail.com",
             "src-cv": cv,

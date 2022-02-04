@@ -1,0 +1,44 @@
+@import "../helpers/_variables.scss";
+@import "../helpers/_functions.scss";
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: $color-secondary;
+    padding: $padding-small;
+    margin-bottom: $margin-large;
+
+    ul {
+        list-style: none;
+        display: flex;
+        gap: $margin-large;
+        font-size: $font-size-x-large;
+        font-weight: $font-weight-medium;
+        text-transform: uppercase;
+
+        .home-link {
+            color: $color-primary;
+        }
+        .portfolio-link {
+            color: $color-accent-1;
+        }
+        .cv-link {
+            color: $color-accent-2;
+        }
+    }
+}
+
+//------------------------------------------------------
+//--------------------- RESPONSIVE ---------------------
+//------------------------------------------------------
+
+@media screen and (max-width: px(550)) {
+    nav {
+        justify-content: start;
+        ul {
+            align-items: start;
+            flex-direction: column;
+            gap: $margin-small;
+        }
+    }
+}
