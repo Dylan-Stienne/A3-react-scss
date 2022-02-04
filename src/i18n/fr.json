@@ -1,10 +1,21 @@
 {
+    "NAV": {
+        "LINK_HOME": "Qui suis-je ?",
+        "LINK_PORTFOLIO": "Portfolio",
+        "LINK_CV": "Mon parcours"
+    },
     "HOME": {
         "TITLE_MY_PORTFOLIO": "mon portfolio",
         "LABEL_MY_PORTFOLIO": "Découvrez les meilleurs projets WEB auxquels j’ai participé",
-        "TITLE_MY_CV": "mon cv",
+        "TITLE_MY_CV": "mon parcours",
         "LABEL_MY_CV": "Gardez une trace de moi en téléchargeant mon CV juste ici",
         "TITLE_CONTACT_ME": "me contacter"
+    },
+    "PORTFOLIO": {
+        "TITLE": "Voici les projets auxquels j'ai participé"
+    },
+    "CV": {
+        "TITLE": "Voici mon parcours"
     },
     "SKILLS_CODE": {
         "DEFINE_VAR": "const",

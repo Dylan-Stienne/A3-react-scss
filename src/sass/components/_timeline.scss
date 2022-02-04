@@ -1,0 +1,8 @@
+@import "../helpers/_variables.scss";
+@import "../helpers/_functions.scss";
+
+.timeline {
+    width: 100%;
+    max-width: px(1000);
+    padding: 0 $padding-large;
+}

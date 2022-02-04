@@ -1,5 +1,5 @@
 import HomePage from "./pages/Home"
-import ProjectsPage from "./pages/Projects"
+import PortfolioPage from "./pages/Portfolio"
 import CvPage from "./pages/Cv"
 
 import {
@@ -14,7 +14,7 @@ function App() {
     <Router>
       <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route exact path="/portfolio" component={ProjectsPage} />
+        <Route exact path="/portfolio" component={PortfolioPage} />
         <Route exact path="/cv" component={CvPage} />
         <Route path="*"><Redirect to="/" /></Route>
       </Switch>

@@ -5,7 +5,7 @@ import PortfolioCard from '../components/cards/Portfolio'
 import CvCard from '../components/cards/Cv'
 import ContactCard from '../components/cards/Contact'
 import mock from '../services/mock';
-import '../sass/pages/home/_header.scss';
+import '../sass/pages/_home.scss';
 
 
 function Home() {

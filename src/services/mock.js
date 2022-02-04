@@ -46,6 +46,41 @@ export default {
         }
     },
 
+    getMyBackground() {
+        return [
+            {
+                title: "Freelance",
+                subtitle: "Développeur web full-stack",
+                description: "Réalisation de petites missions de développement en Freelance.",
+                date: "2020 - Aujourd'hui"
+            },
+            {
+                title: "Squirle",
+                subtitle: "Développeur full-stack",
+                description: "Création et développement de l’api de la plateforme Squirle avec les technologies Python, Lambdas AWS, MongoDB, Terraform et Angular pour le Front.",
+                date: "2020 - Aujourd'hui"
+            },
+            {
+                title: "Master - Développement web & mobile",
+                subtitle: "IIM - Digital school De Vinci",
+                description: "Changement d'école pour poursuivre ma formation au sein de l'IIM afin de me spécialiser dans le développement WEB.",
+                date: "2020 - Aujourd'hui"
+            },
+            {
+                title: "Sciences informatiques généraliste",
+                subtitle: "SUPINFO International University",
+                description: "2 ans de formation au sein de SUPINFO durant lesquels j'ai pu découvrir les notions de réseaux, d'infrastructures, de design, de management et de developpement web.",
+                date: "2018 - 2020"
+            },
+            {
+                title: "Bac Scientifique - Mention assez bien",
+                subtitle: "Lycée Evariste Galois, Sartrouville",
+                description: "Optention du baccalauréat scientifique option ISN.",
+                date: "2018"
+            }
+        ]
+    },
+
     getMyProjects() {
         return [
             {

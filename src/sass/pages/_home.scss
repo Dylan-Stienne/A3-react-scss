@@ -1,16 +1,16 @@
-@import "../../helpers/_variables.scss";
-@import "../../helpers/_functions.scss";
-@import "../../helpers/animations.scss";
+@import "../helpers/_variables.scss";
+@import "../helpers/_functions.scss";
+@import "../helpers/animations.scss";
 
 #home-page .hero-header {
     height: 100vh;
     min-height: px(800);
-    background-image: url("../../../img/home/background.svg");
+    background-image: url("../../img/home/background.svg");
     background-size: cover;
     overflow: hidden;
 
     &__content {
-        background-image: url("../../../img/home/perso.svg");
+        background-image: url("../../img/home/perso.svg");
         background-repeat: no-repeat;
         background-position: bottom right;
         background-size: 25%;

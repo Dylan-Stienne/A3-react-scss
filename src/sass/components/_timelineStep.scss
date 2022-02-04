@@ -1,0 +1,53 @@
+@import "../helpers/_variables.scss";
+@import "../helpers/_functions.scss";
+
+.timeline-step {
+    position: relative;
+    border-left: px(5) solid;
+    color: $color-primary;
+    padding: $padding-regular $padding-x-large;
+    font-size: $font-size-regular;
+    font-weight: $font-weight-medium;
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: px(15);
+        left: px(-17);
+        display: block;
+        width: px(20);
+        height: px(20);
+        background-color: $color-background;
+        border-radius: $border-radius-round;
+        border: px(5) solid;
+    }
+
+    .content {
+        margin-bottom: $margin-medium;
+        color: $color-text-grey;
+
+        h2 {
+            font-size: px(24);
+            color: $color-primary;
+
+            &::first-letter {
+                text-transform: uppercase;
+            }
+        }
+        h3 {
+            font-size: px(20);
+            color: $color-primary;
+            margin: $margin-xx-small 0;
+            font-weight: 300;
+        }
+        p {
+            margin: $margin-xx-small 0;
+            font-weight: 300;
+            max-width: px(450);
+        }
+        span {
+            display: block;
+            margin-top: $margin-medium;
+        }
+    }
+}
