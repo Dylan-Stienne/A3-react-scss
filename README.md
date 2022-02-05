@@ -1,5 +1,5 @@
 # Online preview
-[https://dylan-stienne-portfolio.netlify.app/](https://dylan-stienne-portfolio.netlify.app/)
+[https://dylan-stienne.netlify.app/](https://dylan-stienne.netlify.app/)
 
 # Getting Started with Create React App
 

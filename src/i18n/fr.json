@@ -31,6 +31,10 @@
     },
     "QUIZZS": {
         "TITLE": "Voici quelques quizzs",
-        "LABEL_QUESTIONS": "question(s)"
+        "LABEL_QUESTIONS": "question(s)",
+        "LABEL_THANKS": "Le quizz est terminé !",
+        "LABEL_THANKS_SCORE": "Votre score est de",
+        "BUTTON_THANKS_RETRY": "Recommencer",
+        "BUTTON_THANKS_LEAVE": "Quitter"
     }
 }

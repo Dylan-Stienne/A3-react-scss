@@ -1,0 +1,39 @@
+@import "../../helpers/_variables.scss";
+@import "../../helpers/_functions.scss";
+
+.result-card {
+    width: 100%;
+    max-width: px(600);
+    background-color: $color-secondary;
+    border-left: px(5) solid;
+    border-color: $color-accent-3;
+    margin: $margin-small;
+    color: $color-text-grey;
+    padding: $padding-regular;
+
+    p {
+        margin-top: $margin-small;
+        display: flex;
+        align-items: center;
+
+        span {
+            color: $color-accent-3;
+            font-size: $font-size-xx-large;
+            margin-left: $margin-regular;
+            font-weight: 600;
+        }
+    }
+
+    .actions {
+        display: flex;
+        gap: $margin-small;
+        justify-content: center;
+        margin-top: $margin-large;
+
+        .action {
+            background-color: $color-background;
+            padding: $padding-x-small;
+            color: $color-primary;
+        }
+    }
+}
